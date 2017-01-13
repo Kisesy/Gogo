@@ -1,1 +1,1 @@
-web: java -jar gogo-server.jar 1024
+web: java $JAVA_OPTS -cp gogo-server.jar io.gogo.GoGoServer $PORT
